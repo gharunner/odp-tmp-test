@@ -191,7 +191,7 @@ jobs:
       - if: ${{ success() }}
         uses: ./.github/actions/dump-log
 
-    Run_gcc-no-privileged:
+  Run_gcc-no-privileged:
     # if: ${{ github.repository == 'OpenDataPlane/odp' }}
     runs-on: [ubuntu-latest]
     strategy:
